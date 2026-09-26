@@ -3,7 +3,7 @@ import sys
 from stats import word_count
 from stats import char_count
 from stats import sort_char_dict
-
+ 
 #functional code for bookbot
 def get_book_text(path):
     with open(path) as f:
